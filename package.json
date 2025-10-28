@@ -1,0 +1,29 @@
+{
+  "name": "vue3-webpack-basic",
+  "version": "1.0.0",
+  "description": "A basic Vue3 + Webpack project",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@preemptive/jsdefender-core": "file:assets/preemptive-jsdefender-core-2.9.0.tgz",
+    "@preemptive/jsdefender-webpack-plugin": "file:assets/preemptive-jsdefender-webpack-plugin-2.9.0.tgz",
+    "@vue/cli-service": "^5.0.9",
+    "@vue/compiler-sfc": "^3.4.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "vue-loader": "^17.3.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

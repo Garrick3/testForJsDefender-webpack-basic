@@ -1,0 +1,30 @@
+{
+    "settings": {
+        "booleanLiterals": {
+            "randomize": true
+        },
+        "controlFlow": {
+            "randomize": true
+        },
+        "constantArgument": true,
+        "debuggerRemoval": true,
+        "exprSequence": true,
+        "functionReorder": {
+            "randomize": true
+        },
+        "integerLiterals": {
+            "randomize": true,
+            "radix": "octal",
+            "lower": 0,
+            "upper": 65535
+        },
+        "propertyIndirection": true,
+        "selfDefending": true,
+        "stringLiterals": true,
+        "propertySparsing": true,
+        "variableGrouping": true
+    },
+  "license": "xxx",
+  "email": "garrick.chen@oocl.com",
+  "mapFile": "mymap.json"
+}
